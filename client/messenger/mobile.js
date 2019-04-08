@@ -122,7 +122,7 @@ addContactForm.addEventListener('submit', (event) => {
           addedHint.innerText = 'No user found';
           addedHint.classList.remove('hidden');
           setTimeout(() => {addedHint.classList.add('hidden')}, 1500);
-        };
+        }
     })
     .catch(err => { if(err){console.log(err)}});
     window.location.reload();
